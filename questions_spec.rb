@@ -50,7 +50,7 @@ describe 'Ruby Homework' do
     expect(n).to eq ['puma', 'maker', 'sky']
   end
 
-  fit 'get_first_half_of_string' do
+  it 'get_first_half_of_string' do
     a = get_first_half_of_string 'banana'
     b = get_first_half_of_string 'apple'
 
@@ -58,7 +58,7 @@ describe 'Ruby Homework' do
     expect(b).to eq 'app'
   end
 
-  it 'make_numbers_negative' do
+  fit 'make_numbers_negative' do
     a = make_numbers_negative 5
     b = make_numbers_negative -7
 
